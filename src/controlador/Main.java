@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
         ControladorPrincipal.mostrar();
-        //ControladorLogin.mostrar();
+        ControladorLogin.mostrar();
         //DB db = new DB();
         /*Producto p = new Producto();
         p.setNombre("Razer I version Marti DB");
