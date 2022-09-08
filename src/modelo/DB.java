@@ -33,6 +33,7 @@ public class DB {
             System.out.println(e);
         }
     }
+    
 
     public void eliminarProducto(int codigo) {
 

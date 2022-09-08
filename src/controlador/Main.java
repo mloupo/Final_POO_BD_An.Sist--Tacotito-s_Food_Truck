@@ -6,7 +6,7 @@ import modelo.Producto;
 public class Main {
 
     public static void main(String[] args) {
-        ControladorPrincipal.mostrar();
+        //ControladorPrincipal.mostrar();
         ControladorLogin.mostrar();
         //DB db = new DB();
         /*Producto p = new Producto();
