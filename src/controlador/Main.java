@@ -17,7 +17,8 @@ public class Main {
         //db.eliminarProducto(2);
         db.modificarProducto(p);
          */
-        //System.out.print(db.obtenerProductos());
+        //System.out.print(DB.obtenerProductos());
     }
 
+    
 }

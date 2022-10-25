@@ -3,21 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Zen/ITEC/AnalistaProgramador/2do/Programacion%20Orientada%20a%20Objetos/Java/JavaApplication15/src/controlador/Main.java</file>
-            <file>file:/C:/Users/Zen/ITEC/AnalistaProgramador/2do/Programacion%20Orientada%20a%20Objetos/Java/JavaApplication15/src/otrasVentanasPrueba/Ventana.java</file>
-            <file>file:/C:/Users/Zen/ITEC/AnalistaProgramador/2do/Programacion%20Orientada%20a%20Objetos/Java/JavaApplication15/src/otrasVentanasPrueba/Calculadora.java</file>
-            <file>file:/C:/Users/Zen/ITEC/AnalistaProgramador/2do/Programacion%20Orientada%20a%20Objetos/Java/JavaApplication15/src/vistas/VistaPrincipal.java</file>
-            <file>file:/C:/Users/Zen/ITEC/AnalistaProgramador/2do/Programacion%20Orientada%20a%20Objetos/Java/JavaApplication15/src/modelo/DB.java</file>
-            <file>file:/C:/Users/Zen/ITEC/AnalistaProgramador/2do/Programacion%20Orientada%20a%20Objetos/Java/JavaApplication15/src/modelo/Producto.java</file>
-            <file>file:/C:/Users/Zen/ITEC/AnalistaProgramador/2do/Programacion%20Orientada%20a%20Objetos/Java/JavaApplication15/src/vistas/VistaLogin.java</file>
-            <file>file:/C:/Users/Zen/ITEC/AnalistaProgramador/2do/Programacion%20Orientada%20a%20Objetos/Java/JavaApplication15/src/otrasVentanasPrueba/Principal.java</file>
-            <file>file:/C:/Users/Zen/ITEC/AnalistaProgramador/2do/Programacion%20Orientada%20a%20Objetos/Java/JavaApplication15/src/controlador/ControladorPrincipal.java</file>
-            <file>file:/C:/Users/Zen/ITEC/AnalistaProgramador/2do/Programacion%20Orientada%20a%20Objetos/Java/JavaApplication15/src/modelo/Fecha.java</file>
-            <file>file:/C:/Users/Zen/ITEC/AnalistaProgramador/2do/Programacion%20Orientada%20a%20Objetos/Java/JavaApplication15/src/otrasVentanasPrueba/VentanaCurso.java</file>
-            <file>file:/C:/Users/Zen/ITEC/AnalistaProgramador/2do/Programacion%20Orientada%20a%20Objetos/Java/JavaApplication15/src/controlador/ControladorProducto.java</file>
-            <file>file:/C:/Users/Zen/ITEC/AnalistaProgramador/2do/Programacion%20Orientada%20a%20Objetos/Java/JavaApplication15/src/vistas/VistaProducto.java</file>
-            <file>file:/C:/Users/Zen/ITEC/AnalistaProgramador/2do/Programacion%20Orientada%20a%20Objetos/Java/JavaApplication15/src/controlador/ControladorLogin.java</file>
-            <file>file:/C:/Users/Zen/ITEC/AnalistaProgramador/2do/Programacion%20Orientada%20a%20Objetos/Java/JavaApplication15/src/modelo/Venta.java</file>
+            <file>file:/C:/Users/Zen/ITEC/AnalistaProgramador/2do/Final%20POO%20-An%20Sis%20-%20BD/Tacotito's%20Java%20-%20POO/src/modelo/productoTaco/Ingrediente.java</file>
+            <file>file:/C:/Users/Zen/ITEC/AnalistaProgramador/2do/Final%20POO%20-An%20Sis%20-%20BD/Tacotito's%20Java%20-%20POO/src/modelo/DB.java</file>
+            <file>file:/C:/Users/Zen/ITEC/AnalistaProgramador/2do/Final%20POO%20-An%20Sis%20-%20BD/Tacotito's%20Java%20-%20POO/src/modelo/productoTaco/Taco.java</file>
+            <file>file:/C:/Users/Zen/ITEC/AnalistaProgramador/2do/Final%20POO%20-An%20Sis%20-%20BD/Tacotito's%20Java%20-%20POO/src/controlador/ControladorProducto.java</file>
+            <file>file:/C:/Users/Zen/ITEC/AnalistaProgramador/2do/Final%20POO%20-An%20Sis%20-%20BD/Tacotito's%20Java%20-%20POO/src/modelo/productoTaco/Tipo_Ingrediente.java</file>
         </group>
     </open-files>
 </project-private>

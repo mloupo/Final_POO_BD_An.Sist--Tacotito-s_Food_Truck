@@ -7,8 +7,8 @@ package controlador;
 import java.util.ArrayList;
 import javax.swing.table.DefaultTableModel;
 import modelo.DB;
-import modelo.Producto;
 import vistas.*;
+import modelo.productoTaco.Taco;
 
 /**
  *
@@ -21,11 +21,11 @@ public class ControladorProducto {
     public static void mostrar() {
         ventana.setVisible(true);
         DB db = new DB();
-        ArrayList<Producto> productos = db.obtenerProductos();
+        ArrayList<Taco> lista_tacos = db.obtenerProductos();
         DefaultTableModel model = (DefaultTableModel) ventana.getGrilla().getModel();
         
         model.setNumRows(0);
-        for (Producto producto : productos) {
+        for (Taco tacos : lista_tacos) {
             Object[] fila = new Object[3];
             fila[0] = producto.getCodigo();
             fila[1] = producto.getNombre();
@@ -42,6 +42,8 @@ public class ControladorProducto {
         System.out.println("Se ejecuto el evento Agregar!");
         String nombre = ventana.getTxtnombre().getText();
         double precio = Double.parseDouble(ventana.getTxtprecio().getText());
+        
+        
         Producto p = new Producto();
         p.setNombre(nombre);
         p.setPrecio(precio);
