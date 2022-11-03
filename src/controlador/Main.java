@@ -1,8 +1,5 @@
 package controlador;
 
-import modelo.DB;
-import modelo.Producto;
-
 public class Main {
 
     public static void main(String[] args) {

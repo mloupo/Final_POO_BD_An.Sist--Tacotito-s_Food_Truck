@@ -9,7 +9,7 @@ package modelo;
  * @author Zen
  */
 public class LineaVenta {
-
+/*
     private int cantidad;
     private Producto p;
 
@@ -45,4 +45,5 @@ public class LineaVenta {
     public double calcularSubtotal(){
         return cantidad * p.getPrecio();
     }
+*/
 }

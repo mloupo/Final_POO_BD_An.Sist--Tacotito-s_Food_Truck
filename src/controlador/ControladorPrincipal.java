@@ -21,7 +21,7 @@ public class ControladorPrincipal {
     
     public static void botonProducto(){
         ocultar();
-        ControladorProducto.mostrar();
+        ControladorTipoIngrediente.mostrar();
     }
     
 }

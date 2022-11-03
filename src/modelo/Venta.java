@@ -3,7 +3,7 @@ package modelo;
 import java.util.ArrayList;
 
 public class Venta {
-
+/*
     int numeroFactura;
     Fecha fecha = new Fecha();
     ArrayList<LineaVenta> lineas = new ArrayList<>();
@@ -38,4 +38,5 @@ public class Venta {
         }
         return total;
     }
+*/
 }

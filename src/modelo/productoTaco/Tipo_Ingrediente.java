@@ -7,9 +7,16 @@ import java.util.Objects;
  * @author Zen
  */
 public class Tipo_Ingrediente {
+    private int id_tipo_ingrediente;
     private String tipo; //tipo: tortilla-salsa-relleno
     private int cant_max;
     
+    public Tipo_Ingrediente(int id, String tipo, int cant){
+        this.id_tipo_ingrediente=id;
+        this.tipo= tipo;
+        this.cant_max= cant;
+    }
+     
     public Tipo_Ingrediente(String tipo, int cant){
         this.tipo= tipo;
         this.cant_max= cant;
@@ -39,6 +46,10 @@ public class Tipo_Ingrediente {
     public int hashCode() {
         int hash = 5;
         return hash;
+    }
+
+    public int getId_tipo_ingrediente() {
+        return id_tipo_ingrediente;
     }
 
     @Override

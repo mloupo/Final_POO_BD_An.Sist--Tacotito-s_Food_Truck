@@ -6,13 +6,18 @@ import java.util.Objects;
  * @author Zen
  */
 public class Ingrediente extends Tipo_Ingrediente{
+    protected int id_ingrediente;
+    protected String nombre_ingrediente;
+    protected String descripcion;
     protected int precio;
-    private String descripcion;
+    private String nombre_tipo_ingrediente;
+   
 
-    public Ingrediente(int precio, String descripcion, String tipo, int cant) {
+    public Ingrediente(int precio, String nombre, String tipo, int cant, String descripcion) {
         super(tipo, cant);
         this.precio = precio;
-        this.descripcion = descripcion;
+        this.nombre_tipo_ingrediente = nombre;
+        this.descripcion=descripcion;
     }
 
     public Ingrediente(String tipo, int cant) {
@@ -27,6 +32,14 @@ public class Ingrediente extends Tipo_Ingrediente{
         this.precio = precio;
     }
 
+    public String getNombre_tipo_ingrediente() {
+        return nombre_tipo_ingrediente;
+    }
+
+    public void setNombre_tipo_ingrediente(String descripcion) {
+        this.descripcion = nombre_tipo_ingrediente;
+    }
+     
     public String getDescripcion() {
         return descripcion;
     }
@@ -37,14 +50,14 @@ public class Ingrediente extends Tipo_Ingrediente{
 
     @Override
     public String toString() {
-        return "Ingrediente{" + "precio=" + precio + ", descripcion=" + descripcion + '}';
+        return "Ingrediente{" + "precio=" + precio + ", descripcion=" + nombre_tipo_ingrediente + '}';
     }
 
     @Override
     public int hashCode() {
         int hash = 7;
         hash = 97 * hash + this.precio;
-        hash = 97 * hash + Objects.hashCode(this.descripcion);
+        hash = 97 * hash + Objects.hashCode(this.nombre_tipo_ingrediente);
         return hash;
     }
 
@@ -63,7 +76,7 @@ public class Ingrediente extends Tipo_Ingrediente{
         if (this.precio != other.precio) {
             return false;
         }
-        return Objects.equals(this.descripcion, other.descripcion);
+        return Objects.equals(this.nombre_tipo_ingrediente, other.nombre_tipo_ingrediente);
     }
 
 
