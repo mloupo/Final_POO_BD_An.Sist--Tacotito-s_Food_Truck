@@ -35,7 +35,7 @@ public class VistaPrincipal extends javax.swing.JFrame {
 
         jMenu1.setText("Operaciones");
 
-        jMenuItem1.setText("Realizar una venta");
+        jMenuItem1.setText("Cargar Ingrediente");
         jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem1ActionPerformed(evt);
@@ -43,7 +43,7 @@ public class VistaPrincipal extends javax.swing.JFrame {
         });
         jMenu1.add(jMenuItem1);
 
-        jMenuItem2.setText("Buscar Producto");
+        jMenuItem2.setText("Cargar Tipo Ingrediente");
         jMenuItem2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem2ActionPerformed(evt);

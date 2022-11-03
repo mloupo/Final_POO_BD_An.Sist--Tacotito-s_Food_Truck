@@ -33,7 +33,7 @@ public class ControladorTipoIngrediente {
     }
 
     public static void botonAgregar() {
-        System.out.println("Se ejecuto el evento Agregar!");
+        System.out.println("Se ejecuto el evento Agregar Tipo Ingrediente!");
         
         String nombre = ventana.getTxtNombre().getText();       
         int cantMax = Integer.parseInt(ventana.getTxtCantMax().getText());
@@ -48,7 +48,7 @@ public class ControladorTipoIngrediente {
     }
 
     public static void botonEliminar() {
-        System.out.println("Se ejecuto el evento Eliminar!");
+        System.out.println("Se ejecuto el evento Eliminar Tipo Ingrediente!");
         int id = Integer.parseInt(
             ventana.getTxtId().getText());
         DB db = new DB();
@@ -57,7 +57,7 @@ public class ControladorTipoIngrediente {
     }
 
     public static void botonModificar() {
-        System.out.println("Se ejecuto el evento Modificar!");
+        System.out.println("Se ejecuto el evento Modificar Tipo Ingrediente!");
     }
 
 }
