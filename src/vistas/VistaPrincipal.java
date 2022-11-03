@@ -21,8 +21,8 @@ public class VistaPrincipal extends javax.swing.JFrame {
         lblVentanaPpal = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
-        jMenuItem1 = new javax.swing.JMenuItem();
-        jMenuItem2 = new javax.swing.JMenuItem();
+        botonIngrediente = new javax.swing.JMenuItem();
+        botonTipoIngrediente = new javax.swing.JMenuItem();
         jSeparator1 = new javax.swing.JPopupMenu.Separator();
         jSeparator2 = new javax.swing.JPopupMenu.Separator();
         jMenuItem3 = new javax.swing.JMenuItem();
@@ -35,21 +35,21 @@ public class VistaPrincipal extends javax.swing.JFrame {
 
         jMenu1.setText("Operaciones");
 
-        jMenuItem1.setText("Cargar Ingrediente");
-        jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
+        botonIngrediente.setText("Administrar Ingrediente");
+        botonIngrediente.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem1ActionPerformed(evt);
+                botonIngredienteActionPerformed(evt);
             }
         });
-        jMenu1.add(jMenuItem1);
+        jMenu1.add(botonIngrediente);
 
-        jMenuItem2.setText("Cargar Tipo Ingrediente");
-        jMenuItem2.addActionListener(new java.awt.event.ActionListener() {
+        botonTipoIngrediente.setText("Administrar  Tipo Ingrediente");
+        botonTipoIngrediente.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem2ActionPerformed(evt);
+                botonTipoIngredienteActionPerformed(evt);
             }
         });
-        jMenu1.add(jMenuItem2);
+        jMenu1.add(botonTipoIngrediente);
         jMenu1.add(jSeparator1);
         jMenu1.add(jSeparator2);
 
@@ -92,13 +92,13 @@ public class VistaPrincipal extends javax.swing.JFrame {
         ControladorPrincipal.botonSalir();
     }//GEN-LAST:event_jMenuItem3ActionPerformed
 
-    private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem2ActionPerformed
-        ControladorPrincipal.botonProducto();
-    }//GEN-LAST:event_jMenuItem2ActionPerformed
+    private void botonTipoIngredienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonTipoIngredienteActionPerformed
+        ControladorPrincipal.botonTipoIngrediente();
+    }//GEN-LAST:event_botonTipoIngredienteActionPerformed
 
-    private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
-        ControladorPrincipal.botonVenta();
-    }//GEN-LAST:event_jMenuItem1ActionPerformed
+    private void botonIngredienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonIngredienteActionPerformed
+        ControladorPrincipal.botonIngrediente();
+    }//GEN-LAST:event_botonIngredienteActionPerformed
 
     /**
      * @param args the command line arguments
@@ -136,11 +136,11 @@ public class VistaPrincipal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JMenuItem botonIngrediente;
+    private javax.swing.JMenuItem botonTipoIngrediente;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
-    private javax.swing.JMenuItem jMenuItem1;
-    private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JMenuItem jMenuItem3;
     private javax.swing.JPopupMenu.Separator jSeparator1;
     private javax.swing.JPopupMenu.Separator jSeparator2;

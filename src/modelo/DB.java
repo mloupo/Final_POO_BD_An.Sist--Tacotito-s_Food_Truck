@@ -2,6 +2,7 @@ package modelo;
 
 import java.sql.*;
 import java.util.ArrayList;
+import modelo.productoTaco.Ingrediente;
 import modelo.productoTaco.Tipo_Ingrediente;
 
 public class DB {
@@ -84,6 +85,30 @@ public class DB {
             System.out.println(e);
         }
         return lista_tipoIngredientes;
+    }
+    
+    public ArrayList<Ingrediente> obtenerListaIngredientes() {
+        ArrayList<Ingrediente> listaIngredientes = new ArrayList <>();
+        try {
+            Statement s = conexion.createStatement();
+            ResultSet res;
+            res = s.executeQuery("select * from ingrediente order by id_ingrediente");
+
+            while (res.next()) {
+                Ingrediente i = new Ingrediente(
+                    res.getInt("id_ingrediente"),
+                    res.getString("descripcion"),
+                    res.getString("precio_ingrediente"),
+                    res.getInt("nombre_ingrediente"),
+                    res.getString("tipo_ingrediente")
+                );
+                listaIngredientes.add(i);
+            }
+
+        } catch (SQLException e) {
+            System.out.println(e);
+        }
+        return listaIngredientes;
     }
 
 }

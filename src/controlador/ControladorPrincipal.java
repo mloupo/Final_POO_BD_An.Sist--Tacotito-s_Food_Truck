@@ -14,12 +14,12 @@ public class ControladorPrincipal {
         ControladorLogin.mostrar();
     }
     
-    public static void botonVenta(){
+    public static void botonIngrediente(){
         ocultar();
-        ControladorVenta.mostrar();
+        ControladorIngrediente.mostrar();
     }
     
-    public static void botonProducto(){
+    public static void botonTipoIngrediente(){
         ocultar();
         ControladorTipoIngrediente.mostrar();
     }
